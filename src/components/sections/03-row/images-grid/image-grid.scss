@@ -19,6 +19,7 @@
     }
 
     .first-image {
+      display: grid;
       max-height: 400px;
       .left-image {
         display: flex;
