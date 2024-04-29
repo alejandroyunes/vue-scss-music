@@ -7,7 +7,8 @@ import './image-grid.scss'
   <section class="image-grid-container">
 
     <div class="first-column">
-      <div>
+
+      <div class="first-image">
         <img class="left-image" src="/images/sections/03-row/grid-image/close-mic.webp" alt="" />
       </div>
 

@@ -4,9 +4,8 @@ import TitleSubtitle from '@/components/sections/01-row/title-subtitle/TitleSubt
 import IndentDescription from '@/components/sections/03-row/indent-description/IndentDescription.vue'
 import ImageTitleOverlay from '@/components/sections/03-row/images-title-overlay/ImagesTitleOverlay.vue'
 import UpcomingEvents from '@/components/sections/04-row/UpcomingEvents.vue'
-import ImageGrid from '@/components/sections/03-row/images-grid/ImageGrid.vue'
 import SocialHover from '@/components/sections/06-row/social-hover/SocialHover.vue'
-import ImageGridTwo from '@/components/sections/03-row/images-grid/ImageGridTwo.vue'
+import ImageGrid from '@/components/sections/03-row/images-grid/ImageGrid.vue'
 </script>
 
 <template>
@@ -21,7 +20,7 @@ import ImageGridTwo from '@/components/sections/03-row/images-grid/ImageGridTwo.
   <TitleSubtitle title="Upcoming Events" subtitle="Tour Dates 2024" />
   <UpcomingEvents />
 
-  <ImageGridTwo />
+  <ImageGrid />
 
   <SocialHover />
 
