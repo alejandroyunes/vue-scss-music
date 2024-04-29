@@ -8,7 +8,7 @@ import './image-grid.scss'
 
     <div class="first-column">
       <div>
-        <img class="first-image" src="/images/sections/03-row/grid-image/close-mic.webp" alt="" />
+        <img class="left-image" src="/images/sections/03-row/grid-image/close-mic.webp" alt="" />
       </div>
 
       <div class="second-image">
