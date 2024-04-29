@@ -6,7 +6,7 @@ import './image-grid.scss'
 
   <section class="image-grid-container">
 
-    <div class="left-side">
+    <div class="first-column">
       <div>
         <img class="first-image" src="/images/sections/03-row/grid-image/close-mic.webp" alt="" />
       </div>
@@ -22,8 +22,8 @@ import './image-grid.scss'
 
     </div>
 
-    <div>
-      <img class="billboard" src="/images/billboard/musicP.webp" alt="" />
+    <div class="second-column">
+      <img class="image" src="/images/billboard/musicP.webp" alt="" />
     </div>
 
   </section>

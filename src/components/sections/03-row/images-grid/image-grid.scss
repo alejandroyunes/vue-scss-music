@@ -5,16 +5,16 @@
   max-width: var(--max-width);
   overflow: hidden;
 
-  .left-side {
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+
+  .first-column {
     display: flex;
     flex-direction: row;
     height: auto;
     max-width: 100%;
     object-fit: cover;
-
-    @media (max-width: 900px) {
-      max-height: 300px;
-    }
 
     .first-image {
       display: block;
@@ -24,7 +24,6 @@
     }
     .second-image {
       display: grid;
-      grid-template-rows: 1fr 1fr;
 
       .image {
         height: 100%;
@@ -34,9 +33,11 @@
     }
   }
 
-  .billboard {
-    height: 100%;
-    max-width: 100%;
-    object-fit: cover;
+  .second-column {
+    .image {
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
   }
 }
