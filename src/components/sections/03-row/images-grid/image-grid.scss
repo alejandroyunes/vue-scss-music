@@ -21,24 +21,13 @@
       height: 100%;
       max-width: 100%;
       object-fit: cover;
-
-      @media (max-width: 500px) {
-        max-width: 200px;
-        max-height: 400px;
-      }
     }
     .second-image {
       display: grid;
-      max-height: 400px;
-
       .image {
         height: 100%;
         max-width: 100%;
         object-fit: cover;
-
-        @media (max-width: 500px) {
-          // max-width: 162px;
-        }
       }
     }
   }
