@@ -13,10 +13,10 @@ import './image-grid.scss'
       </div>
 
       <div class="second-image">
-        <div>
+        <div class="second-item">
           <img class="image" src="/images/sections/03-row/grid-image/grid1.webp" alt="" />
         </div>
-        <div>
+        <div class="second-item">
           <img class="image" src="/images/sections/03-row/grid-image/grid2.webp" alt="" />
         </div>
       </div>
