@@ -6,6 +6,7 @@ import ImageTitleOverlay from '@/components/sections/03-row/images-title-overlay
 import UpcomingEvents from '@/components/sections/04-row/UpcomingEvents.vue'
 import ImageGrid from '@/components/sections/03-row/images-grid/ImageGrid.vue'
 import SocialHover from '@/components/sections/06-row/social-hover/SocialHover.vue'
+import ImageGridTwo from '@/components/sections/03-row/images-grid/ImageGridTwo.vue'
 </script>
 
 <template>
@@ -20,7 +21,7 @@ import SocialHover from '@/components/sections/06-row/social-hover/SocialHover.v
   <TitleSubtitle title="Upcoming Events" subtitle="Tour Dates 2024" />
   <UpcomingEvents />
 
-  <ImageGrid />
+  <ImageGridTwo />
 
   <SocialHover />
 
