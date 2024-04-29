@@ -24,10 +24,12 @@
 
       @media (max-width: 500px) {
         max-width: 275px;
+        max-height: 400px;
       }
     }
     .second-image {
       display: grid;
+      max-height: 400px;
 
       .image {
         height: 100%;
@@ -36,7 +38,6 @@
 
         @media (max-width: 500px) {
           // max-width: 162px;
-          // height: 100%;
         }
       }
     }
