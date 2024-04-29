@@ -10,20 +10,21 @@
   }
 
   .first-column {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     object-fit: cover;
 
     .first-image {
       display: block;
       height: 100%;
-      max-width: 100%;
+
       object-fit: cover;
     }
     .second-image {
       display: grid;
+      // grid-template-rows: repeat(2, minmax(0, 1fr));
+      // grid-template-rows: repeat(0.3fr 0.7fr, minmax(0, 1fr));
+
       .image {
         height: 100%;
         max-width: 100%;
